@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 const BoardExtPb = () => {
     return(
         <div className='container __ext--pb'>
+            <Link to='/int'>
             <div className='button__pb'>
-                <Link to='/int'>
                     <FontAwesomeIcon icon={faChevronUp} className='icon__pb'/>
-                </Link>
             </div>
+            </Link>
         </div>
     )
 }

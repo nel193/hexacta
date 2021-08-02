@@ -1,3 +1,21 @@
+@media (min-width: 768px){
+    .layout{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .form__buttons-box{
+        flex-direction:row !important;
+        justify-content: space-around;
+        & .btn-a{
+            order:2 !important
+        }
+        & .btn-b{
+            order:1 !important
+        }
+    }
+    .container__other-buttons {
+        flex-direction: row;
+    }
+}
 @media (min-width: 1024px){
     .layout{
         grid-template-columns: 1fr repeat(4, 200px) 1fr;

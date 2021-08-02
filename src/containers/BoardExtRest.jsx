@@ -1,8 +1,10 @@
 import React from 'react'
-
+import SharedFields from '../components/SharedFields'
 const BoardExtRest = () => {
     return(
-        <p>board</p>
+        <div className='container __ext--rest'>
+            <SharedFields/>
+        </div>
     )
 }
 
