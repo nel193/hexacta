@@ -7,9 +7,9 @@ module.exports = {
     mode:'development',
     entry:'./src/index.js',
     output:{
-        path: path.resolve(__dirname, ''),
+        path: path.resolve(__dirname, 'build'),
         filename:'build.js',
-        publicPath: './'
+        publicPath: '/'
     },
     resolve:{
         extensions:['.js','.jsx'] 
@@ -44,6 +44,7 @@ module.exports = {
         ]
     },
     devServer: {
+        contentBase:'./build',
         historyApiFallback: true,
     },
     plugins:[

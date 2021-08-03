@@ -10,9 +10,9 @@ const App = () =>{
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path='/' component={BoardExtPb}/>
-                    <Route exact path='/int' component={BoardInt}/>
-                    <Route exact path='/rest' component={BoardExtRest}/>
+                    <Route exact path='/hexacta/' component={BoardExtPb}/>
+                    <Route exact path='/hexacta/int' component={BoardInt}/>
+                    <Route exact path='/hexacta/rest' component={BoardExtRest}/>
                 </Switch>
             </Layout>
         </BrowserRouter>
