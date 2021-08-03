@@ -6,11 +6,11 @@
     height: 100vh;
     & .container {
         grid-column: 2/6;
-    
         &.__ext--pb{
             grid-row: 1/9;
-            justify-self: center;
             align-self: center;
+            display: flex;
+            justify-content: center;
             & .button__pb{
                 width:100px;
                 height:100px;
